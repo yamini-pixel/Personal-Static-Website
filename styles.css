@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #bc7b20;
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgba(221, 143, 18, 0.429) !important; /* Make navbar background transparent */
+}
+
+.container {
+    margin-top: 60px; /* Adjust margin to avoid overlap with fixed navbar */
+}
